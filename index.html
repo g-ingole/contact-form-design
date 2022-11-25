@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form Design</title>
+</head>
+<style>
+    *
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgba(235, 205, 166, 0.959);
+    font-family: sans-serif;
+}
+.contact-box
+{
+  width: 500px;
+  background-color: darkslategray;
+  box-shadow: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+form
+{
+    margin: 35px;
+}
+.input-field
+{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px cornflowerblue;
+    border-radius: 14px;
+    outline:none;
+}
+.btn
+{
+    border-radius: 20px;
+    color: rgb(20, 20, 251);
+    margin-top: 18px;
+    padding: 10px;
+    background-color: rgb(234, 142, 5);
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+</style>
+<body>
+    <div class="contact-box">
+        <form>
+            <input type="text" class="input-field" placeholder="First Name">
+            <input type="Last Name" class="input-field" placeholder="Last Name">
+            <input type="email" class="input-field" placeholder="Email">
+            <input type="text" class="input-field" placeholder="Password">
+            <button type="button" class="btn">Sign up</button>
+        </form>
+    </div>
+</body>
+</html>
